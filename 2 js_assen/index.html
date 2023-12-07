@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .qoutes {
+        text-align: center;
+
+        .headLine {
+            font-size: 5rem;
+            font-weight: bolder;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .insatrc {
+            font-size: 3rem;
+
+        }
+
+        .switchBtn {
+            padding: 1rem 6rem;
+            border: 1px solid #fff;
+            font-size: 1.5rem;
+
+            border-radius: 20px;
+            background: linear-gradient(40deg, blue, red);
+            color: #fff;
+        }
+
+        #author {
+            font-size: 1rem;
+            margin-top: 1em;
+        }
+
+        #qoute {
+            font-size: 2rem;
+            margin-block: 1em;
+        }
+    }
+</style>
+
+<body>
+
+    <div class="qoutes">
+        <h1 class="headLine">Quote of the Day</h1>
+        <p class="insatrc">Press the button below to recieve a random quote!</p>
+        <button class="switchBtn" onclick="change()">switch</button>
+        <div id="qoute">“Be yourself; everyone else is already taken.”</div>
+        <div id="author">Oscar Wilde</div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
